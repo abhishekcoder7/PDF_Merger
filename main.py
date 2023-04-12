@@ -1,6 +1,6 @@
 import PyPDF2
 
-pdf_set = ["sample1.pdf", "sample2.pdf", "sample3.pdf", "sample4.pdf"]
+pdf_set = ["Assets\\sample1.pdf", "Assets\\sample2.pdf", "Assets\\sample3.pdf", "Assets\\sample4.pdf"]
 
 merger =PyPDF2.PdfMerger()
 for i in pdf_set:
